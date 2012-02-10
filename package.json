@@ -6,12 +6,17 @@
     "url": ""
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node ./lib/index.js"
   },
   "engines": {
     "node": "~0.6.10"
   },
-  "dependencies": {},
+  "dependencies": {
+    "router-line": "*",
+    "cookie-line": "*"
+  },
   "devDependencies": {},
-  "optionalDependencies": {}
+  "optionalDependencies": {},
+  "main": "./lib/index.js"
 }
